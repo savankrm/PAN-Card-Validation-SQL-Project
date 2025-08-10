@@ -1,7 +1,7 @@
 # 🆔 PAN Number Validation Project – PostgreSQL  
 
 <p align="center">
-  <img src="pan_sample_image.jpg" alt="PAN Card Image" width="450" height="250" />
+  <img src="Pan Sample Image.jpg" alt="PAN Card Image" width="450" height="250" />
 </p>
 
 ## 📖 Overview  
