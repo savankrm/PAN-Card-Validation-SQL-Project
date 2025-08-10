@@ -1,7 +1,7 @@
 # 🆔 PAN Number Validation Project – PostgreSQL  
 
 <p align="center">
-  <img src="Images/pan_card_sample.jpg" alt="PAN Card Image" width="450" height="250" />
+  <img src="pan_sample_image.jpg" alt="PAN Card Image" width="450" height="250" />
 </p>
 
 ## 📖 Overview  
@@ -13,7 +13,7 @@ It also demonstrates **data cleaning techniques**, **pattern validation** with P
 ---
 
 ## 🗂️ Dataset Description  
-- **Source**: Provided Excel file `PAN Number Validation Dataset.xlsx`  
+- **Source**: https://techtfq.com/blog/pan-card-validation-in-sql-real-world-data-cleaning-amp-validation-project
 - **Number of Records**: As per provided dataset  
 - **Column**:  
   - `PAN_NUMBER` – Text field containing PAN values  
@@ -181,19 +181,21 @@ FROM COUNTS C;
 ## 📊 Sample Output (Summary Report)  
 | Total Records | Valid PANs | Invalid PANs | Missing / Unprocessed |
 |---------------|------------|--------------|-----------------------|
-| 1000          | 850        | 130          | 20                    |
+| 10000         | 3186       | 5839         | 975                   |
 
 ---
 
 ## 📁 Project Structure  
+
 📦 PAN_Validation_PostgreSQL  
-├── 📄 pan_validation.sql *(Main script)*  
-├── 📁 Data  
-│   ├── PAN Number Validation Dataset.xlsx  
-│   ├── PAN_Data.csv  
+├── 📄 Project_Pan.sql *(Main script)*  
+├── 📄 Project_SQL_Script.text *(Copy of SQL in text)*  
 ├── 📄 Requirements.pdf *(Project requirements)*  
 ├── 📄 Output_Summary.png *(Screenshot of summary output)*  
 ├── 📄 How_To_Upload_Data.docx *(Guide for CSV import in PostgreSQL)*  
+├── 📄 PAN Number Validation Dataset.xlsx *(Provided file of data)*  
+├── 📄 PAN Number Validation Dataset.csv *(Converted file of data for PostgreSQL)*  
+├── 📄 Pan Sample Image.jpg *(Banner in README file)*  
 └── 📜 README.md  
 
 ---
@@ -210,10 +212,14 @@ FROM COUNTS C;
 1. Clone the repository  
 2. Create a PostgreSQL database  
 3. Import the CSV file into the `PAN_DATA` table  
-4. Run `pan_validation.sql` in **pgAdmin**  
+4. Run `Project_Pan.sql` in **pgAdmin**  
 5. Review the summary report & validation results  
 
 ---
+
+## 🙌 Acknowledgements  
+- [Techtfq YouTube Channel](https://www.youtube.com/c/TechTFQ) – for Project Idea and SQL Tutorials
+- ofcourse ChatGPT for helping to made this readme file 😊
 
 ## 📬 Contact  
 💼 **LinkedIn**: [Savan Kumar Maurya](https://www.linkedin.com/in/savankrm)  
